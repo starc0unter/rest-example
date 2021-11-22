@@ -1,0 +1,6 @@
+rootProject.name = 'rest-example'
+include 'common'
+include 'resteasy'
+include 'jersey'
+include 'json'
+

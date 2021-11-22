@@ -1,0 +1,13 @@
+ext{
+  jerseyVersion = "2.32"
+}
+
+dependencies {
+  implementation project(':common')
+
+  implementation group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet', version: jerseyVersion
+  implementation group: 'org.glassfish.jersey.inject', name: 'jersey-hk2', version: jerseyVersion
+  implementation group: 'org.glassfish.jersey.media', name: 'jersey-media-jaxb', version: jerseyVersion
+  implementation group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: jerseyVersion
+  implementation group: 'org.glassfish.jersey.media', name: 'jersey-media-multipart', version: jerseyVersion
+}

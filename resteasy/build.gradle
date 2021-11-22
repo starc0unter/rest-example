@@ -1,0 +1,10 @@
+ext{
+    restEasyVersion = "4.5.8.Final"
+}
+
+dependencies {
+    implementation project(':common')
+
+    implementation group: 'org.jboss.resteasy', name: 'resteasy-guice', version: restEasyVersion
+    implementation group: 'org.jboss.resteasy', name: 'resteasy-jackson2-provider', version: restEasyVersion
+}
